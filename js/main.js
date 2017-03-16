@@ -27,3 +27,25 @@ console.log('1. isPrime : ' + isPrime(11));
 /*
 2. Prime Factors
 */
+
+function primeFactors(n){
+  var factors = [];
+  var divisor = 2;
+  
+  while(n > 2) {
+    if(n % divisor === 0) {
+      factors.push(divisor);
+      n = n / divisor;
+    }else {
+      divisor++;
+    }
+  }
+  if(n === 2) {
+    factors.push(divisor);
+  }
+
+  return factors;
+}
+
+console.log('2. primeFactors : ' + primeFactors(69));
+//===============================================================================
