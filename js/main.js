@@ -52,3 +52,14 @@ console.log('2. primeFactors : ' + primeFactors(69));
 /*
 3. Fibonacci
 */
+function nthFibonacci(n) {
+  if(n <=1) {
+    return n;
+  }
+  else {
+    return nthFibonacci(n-1) + nthFibonacci(n-2);
+  }
+}
+
+console.log('3. nthFibonacci : ' + nthFibonacci(6));
+//===============================================================================
