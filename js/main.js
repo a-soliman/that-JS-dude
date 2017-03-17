@@ -49,3 +49,6 @@ function primeFactors(n){
 
 console.log('2. primeFactors : ' + primeFactors(69));
 //===============================================================================
+/*
+3. Fibonacci
+*/
