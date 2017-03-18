@@ -63,3 +63,6 @@ function nthFibonacci(n) {
 
 console.log('3. nthFibonacci : ' + nthFibonacci(6));
 //===============================================================================
+/*
+4. Greatest Common Divisor
+*/
