@@ -66,3 +66,20 @@ console.log('3. nthFibonacci : ' + nthFibonacci(6));
 /*
 4. Greatest Common Divisor
 */
+function GCD(a, b) {
+  var divisor = 2;
+  var gDivisor;
+  
+  if(a < 2 || b < 2) { return 1; }
+  
+  while(a >= divisor && b >= divisor) {
+    if(a % divisor === 0 && b % divisor === 0) {
+      gDivisor = divisor;
+    }
+    divisor++;
+  }
+  return gDivisor;
+}
+
+console.log('4. GreatestCommonDivisor : ' + GCD(14, 21));
+//===============================================================================
