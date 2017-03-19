@@ -83,3 +83,6 @@ function GCD(a, b) {
 
 console.log('4. GreatestCommonDivisor : ' + GCD(14, 21));
 //===============================================================================
+/*
+FancyGCD
+*/
