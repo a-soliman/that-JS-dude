@@ -86,3 +86,12 @@ console.log('4. GreatestCommonDivisor : ' + GCD(14, 21));
 /*
 FancyGCD
 */
+function FancyGCD(a, b) {
+  if(b === 0) { return a; }
+  else {
+    return FancyGCD(b, a%b);
+  }
+}
+
+console.log('4I. FancyGCD : '+ FancyGCD(69,33));
+//===============================================================================
