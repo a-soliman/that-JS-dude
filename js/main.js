@@ -95,3 +95,6 @@ function FancyGCD(a, b) {
 
 console.log('4I. FancyGCD : '+ FancyGCD(69,33));
 //===============================================================================
+/*
+5. remove Duplicate from Sorted array
+*/
