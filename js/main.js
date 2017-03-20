@@ -98,3 +98,16 @@ console.log('4I. FancyGCD : '+ FancyGCD(69,33));
 /*
 5. remove Duplicate from Sorted array
 */
+function removeDuplicate(arr) {
+  if(arr.length <= 1) {
+    return arr;
+  }
+  for(var i = 0; i < arr.length; i++) {
+    if(arr[i] === arr[i+1]) {
+      arr.splice(i,1);
+      i = i - 1;
+    }
+  }
+  return arr;
+}
+console.log('5. removeDuplicate "sorted" : ' + removeDuplicate([1,1,3,3,3,4,5,5,6,7,7]));
