@@ -117,3 +117,19 @@ console.log('5. removeDuplicate "sorted" : ' + removeDuplicate([1,1,3,3,3,4,5,5,
 /*
 6. remove Duplicate from UnSorted array
 */
+function removeDuplicateTwo(arr) {
+  var hash = {};
+  var outArray =[];
+  var elm;
+  
+  for(var i = 0; i < arr.length; i++) {
+    elm = arr[i];
+    if(!hash[elm]) {
+      outArray.push(elm);
+      hash[elm] = true;
+    }
+  }
+  return outArray;
+}
+console.log('6. removeDuplicate "UnSorted" : ' + removeDuplicateTwo([1,3,3,3,1,5,6,7,8,1]));
+//===============================================================================
