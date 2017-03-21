@@ -109,5 +109,11 @@ function removeDuplicate(arr) {
     }
   }
   return arr;
+
 }
 console.log('5. removeDuplicate "sorted" : ' + removeDuplicate([1,1,3,3,3,4,5,5,6,7,7]));
+
+  //===============================================================================
+/*
+6. remove Duplicate from UnSorted array
+*/
