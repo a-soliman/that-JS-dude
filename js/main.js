@@ -136,3 +136,29 @@ console.log('6. removeDuplicate "UnSorted" : ' + removeDuplicateTwo([1,3,3,3,1,5
 /*
 7. merge two sorted array
 */
+function mergeArraies(arr1, arr2) {
+  var a = 0, b = 0, result = [];
+  
+  while(a < arr1.length && b < arr2.length) {
+    if(arr1[a] <= arr2[b]) {
+      result.push(arr1[a]);
+      a++;
+    } else {
+      result.push(arr2[b]);
+      b++;
+    }
+  }
+  while(a < arr1.length) {
+    result.push(arr1[a]);
+    a++;
+  }
+  while(b < arr2.length) {
+    result.push(arr2[b]);
+      b++;
+  }
+  return result;
+}
+
+console.log('7. mergeTwoArraies : ' + mergeArraies([1,3,5,7,9], [0,2,4,6,8,10]));
+
+//===============================================================================
