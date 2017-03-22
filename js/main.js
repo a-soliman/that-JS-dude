@@ -133,3 +133,6 @@ function removeDuplicateTwo(arr) {
 }
 console.log('6. removeDuplicate "UnSorted" : ' + removeDuplicateTwo([1,3,3,3,1,5,6,7,8,1]));
 //===============================================================================
+/*
+7. merge two sorted array
+*/
