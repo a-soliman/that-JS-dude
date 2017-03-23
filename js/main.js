@@ -165,3 +165,13 @@ console.log('7. mergeTwoArraies : ' + mergeArraies([1,3,5,7,9], [0,2,4,6,8,10]))
 /*
 8. swap number without temp
 */
+function swap(a,b) {
+  b = b - a;
+  a = a + b;
+  b = a - b;
+  
+  return [a, b];
+}
+
+console.log('8. swap inplace : ' + swap(5,3));
+//===============================================================================
