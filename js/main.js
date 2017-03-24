@@ -178,3 +178,16 @@ console.log('8. swap inplace : ' + swap(5,3));
 /*
 9. string reverse
 */
+function reverseStr(str) {
+  if(str.length <= 1) {
+    return str;
+  }
+  var newStr = '';
+  for(var i = str.length-1; i >= 0; i--) {
+    newStr += str[i];
+  }
+  return newStr;
+}
+console.log('9. reverseStr : ' + reverseStr('Have a nice day'));
+
+//========================================
