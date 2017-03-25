@@ -192,3 +192,10 @@ console.log('9. reverseStr : ' + reverseStr('Have a nice day'));
 
 //========================================
 // string reverse "clean"
+
+function reverseStrTwo(str) {
+  return str.split('').reverse().join('');
+}
+console.log('9I. reverseStr "clean" :' + reverseStrTwo('Have a nice day'));
+
+//========================================
