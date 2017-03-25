@@ -191,3 +191,4 @@ function reverseStr(str) {
 console.log('9. reverseStr : ' + reverseStr('Have a nice day'));
 
 //========================================
+// string reverse "clean"
