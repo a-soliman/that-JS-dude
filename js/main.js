@@ -199,3 +199,4 @@ function reverseStrTwo(str) {
 console.log('9I. reverseStr "clean" :' + reverseStrTwo('Have a nice day'));
 
 //========================================
+// as an extension
