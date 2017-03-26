@@ -200,3 +200,12 @@ console.log('9I. reverseStr "clean" :' + reverseStrTwo('Have a nice day'));
 
 //========================================
 // as an extension
+String.prototype.reverse = function() {
+  if(!this || this.length < 2 ) {
+    return this;
+  }
+  
+  return this.split('').reverse().join('');
+}
+console.log('9II. reverseStr "extension" : ' + 'abc'.reverse())
+//===============================================================================
