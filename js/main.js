@@ -212,3 +212,25 @@ console.log('9II. reverseStr "extension" : ' + 'abc'.reverse())
 /*
 10. reverse words
 */
+function reverseWords(str) {
+  var revStr = [];
+  var wordLen = 0;
+  
+  for(var i = str.length-1; i >= 0; i--) {
+    if(str[i] === ' ' || i === 0) {
+      if(i === 0) {
+        revStr.push(' ');
+      }
+      revStr.push(str.substr(i, wordLen + 1));
+      wordLen = 0;
+    } else {
+      wordLen++;
+    }
+  }
+  return revStr.join('')
+
+}
+
+console.log('10. reverseWords : '+ reverseWords('Have a nice day'))
+
+//========================================
