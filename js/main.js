@@ -209,3 +209,6 @@ String.prototype.reverse = function() {
 }
 console.log('9II. reverseStr "extension" : ' + 'abc'.reverse())
 //===============================================================================
+/*
+10. reverse words
+*/
