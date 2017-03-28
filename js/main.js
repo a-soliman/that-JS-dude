@@ -236,3 +236,9 @@ console.log('10. reverseWords : '+ reverseWords('Have a nice day'))
 //========================================
 //========================================
 //cleaner method
+function reverseWordsTwo(str) {
+  return str.split(' ').reverse().join(' ')
+}
+console.log('10I. reverseWords "clean" : ' + reverseWordsTwo('Have a nice day'))
+
+//===============================================================================
