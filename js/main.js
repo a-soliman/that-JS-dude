@@ -234,3 +234,5 @@ function reverseWords(str) {
 console.log('10. reverseWords : '+ reverseWords('Have a nice day'))
 
 //========================================
+//========================================
+//cleaner method
