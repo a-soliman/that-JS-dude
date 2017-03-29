@@ -242,3 +242,6 @@ function reverseWordsTwo(str) {
 console.log('10I. reverseWords "clean" : ' + reverseWordsTwo('Have a nice day'))
 
 //===============================================================================
+/*
+11. First non repeating char
+*/
