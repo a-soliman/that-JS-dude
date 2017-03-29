@@ -245,3 +245,25 @@ console.log('10I. reverseWords "clean" : ' + reverseWordsTwo('Have a nice day'))
 /*
 11. First non repeating char
 */
+function firstNonRepeatedChar(str) {
+  var hash = {};
+  var len = str.length;
+  
+  for(var i = 0; i < len; i++) {
+    if(hash[str[i]]) {
+      hash[str[i]]++;
+    } else {
+      hash[str[i]] = 1;
+    }
+  }
+  for(var j in hash) {
+    if(hash[j] === 1) {
+      return j;
+    }
+  }
+  return null;
+}
+console.log('11. firstNonRepeatedChar : ' + firstNonRepeatedChar('the quick brown fox jumps then quickly blow air'));
+
+//===============================================================================
+/*
