@@ -269,3 +269,16 @@ console.log('11. firstNonRepeatedChar : ' + firstNonRepeatedChar('the quick brow
 /*
 12. remove duplicate char
 */
+function removeDuplicateStr(str) {
+  var newStr = '';
+  
+  for(var i = 0; i < str.length; i++) {
+    if(str[i] !== str[i+1]) {
+      newStr += str[i];
+    }
+  }
+  return newStr;
+}
+console.log('12. removeDuplicateStr : ' + removeDuplicateStr('aahhmmeedd'));
+
+//===============================================================================
