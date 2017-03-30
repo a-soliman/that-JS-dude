@@ -267,3 +267,5 @@ console.log('11. firstNonRepeatedChar : ' + firstNonRepeatedChar('the quick brow
 
 //===============================================================================
 /*
+12. remove duplicate char
+*/
