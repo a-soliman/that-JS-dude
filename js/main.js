@@ -285,3 +285,23 @@ console.log('12. removeDuplicateStr : ' + removeDuplicateStr('aahhmmeedd'));
 /*
 13. check palindrome
 */
+
+function isPalindrome(str) {
+  var i = 0;
+  var j = str.length-1;
+  
+  while(i <= j) {
+    if(i === Math.floor(str.length /2)) {
+      return true;
+    }
+    else if(str[i] === str[j]) {
+      i++;
+      j--;
+    } else {
+      return false;
+    }
+  }
+}
+
+console.log('13. isPalindrome : ' + isPalindrome('madam'))
+//========================================
