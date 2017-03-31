@@ -282,3 +282,6 @@ function removeDuplicateStr(str) {
 console.log('12. removeDuplicateStr : ' + removeDuplicateStr('aahhmmeedd'));
 
 //===============================================================================
+/*
+13. check palindrome
+*/
