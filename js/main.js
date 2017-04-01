@@ -305,3 +305,4 @@ function isPalindrome(str) {
 
 console.log('13. isPalindrome : ' + isPalindrome('madam'))
 //========================================
+// isPalindromeFancy
