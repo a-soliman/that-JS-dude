@@ -306,3 +306,10 @@ function isPalindrome(str) {
 console.log('13. isPalindrome : ' + isPalindrome('madam'))
 //========================================
 // isPalindromeFancy
+
+function isPalindromeFancy(str) {
+  return str === str.split('').reverse().join('')
+}
+console.log('13I. isPalindromeFancy : ' + isPalindromeFancy('madam'));
+
+//===============================================================================
