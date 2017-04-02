@@ -313,3 +313,7 @@ function isPalindromeFancy(str) {
 console.log('13I. isPalindromeFancy : ' + isPalindromeFancy('madam'));
 
 //===============================================================================
+/*
+14. random between 5 to 7
+If you have a function that generate random number between 1 to 5 how could u generate random number 1 to 7 by using that function?
+*/
