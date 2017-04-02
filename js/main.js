@@ -317,3 +317,14 @@ console.log('13I. isPalindromeFancy : ' + isPalindromeFancy('madam'));
 14. random between 5 to 7
 If you have a function that generate random number between 1 to 5 how could u generate random number 1 to 7 by using that function?
 */
+
+function random5() {
+  return 1 + Math.floor(Math.random() * 5);
+}
+function random5to7(){
+  return 5 + Math.floor(random5() /5*2);
+}
+
+console.log('14. random 5:7 : ' + random5to7())
+
+//===============================================================================
