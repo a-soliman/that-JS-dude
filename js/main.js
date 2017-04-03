@@ -328,3 +328,8 @@ function random5to7(){
 console.log('14. random 5:7 : ' + random5to7())
 
 //===============================================================================
+
+/*
+15. missing number
+Question: from a unsorted array of numbers 1 to 100 excluding one number, how will you find that number.
+*/
