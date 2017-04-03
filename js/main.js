@@ -333,3 +333,34 @@ console.log('14. random 5:7 : ' + random5to7())
 15. missing number
 Question: from a unsorted array of numbers 1 to 100 excluding one number, how will you find that number.
 */
+var numArray = [];
+for(var i = 1; i <= 100; i++) {
+  if(i === 50) {
+    
+  }else {
+  numArray.push(i);
+  }
+}
+
+
+function missingNum(arr) {
+  var sum = 0;
+  var actualSum = 0;
+  var missing;
+  //find the actualSum
+  for(var i = 0; i < arr.length; i++) {
+    actualSum += arr[i];
+  }
+  
+  //find the sum of 1 to 100;
+  for(var i = 1; i <=100; i++) {
+    sum += i;
+  }
+  missing = sum - actualSum;
+  return missing;
+  
+}
+
+console.log('15. missingNum : ' + missingNum(numArray));
+
+//===============================================================================
