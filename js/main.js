@@ -368,3 +368,18 @@ console.log('15. missingNum : ' + missingNum(numArray));
 16. Sum of two
 Question: From a unsorted array, check whether there are any two numbers that will sum up to a given number?
 */
+function sumOfTwo(arr, target) {
+  var hash = {};
+  
+  for(var i = 0; i < arr.length; i++) {
+    if(!hash[target - arr[i]]) {
+      hash[arr[i]] = true;
+    } else {
+      return true;
+    }
+  }
+  return false;
+}
+
+console.log('16. sumOfTwo : ' + sumOfTwo([6,4,3,2,1,7], 9));
+//===============================================================================
