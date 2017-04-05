@@ -386,3 +386,21 @@ console.log('16. sumOfTwo : ' + sumOfTwo([6,4,3,2,1,7], 9));
 /*
 17. Largest Sum
 */
+
+function lagestSum(arr) {
+  var largetNum1=  0;
+  var largetNum2 = 0;
+  
+  for(var i = 0; i < arr.length; i++) {
+    if(arr[i] > largetNum1) {
+      largetNum2 = largetNum1;
+      largetNum1 = arr[i];
+    } else if(arr[i] > largetNum2) {
+      largetNum2 = arr[i];
+    }
+  }
+  return largetNum2 + largetNum1;
+}
+
+console.log('17. lagestSum :' + lagestSum([1,2,3,4,5,6,7,8,9,10]))
+//===============================================================================
