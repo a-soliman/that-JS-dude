@@ -404,3 +404,7 @@ function lagestSum(arr) {
 
 console.log('17. lagestSum :' + lagestSum([1,2,3,4,5,6,7,8,9,10]))
 //===============================================================================
+/*
+18. Counting Zeros
+Question: Count Total number of zeros from 1 upto n?
+*/
