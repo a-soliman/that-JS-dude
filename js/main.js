@@ -423,3 +423,22 @@ console.log('19. countingZeros : ' + countingZeros(2014))
 19. subString
 Question: How can you match substring of a sting?
 */
+function matchSubstring(str, subStr) {
+  var len = str.length;
+  var subLen = subStr.length;
+  var i, j = 0;
+  
+  for(i = 0; i < len; i++) {
+    if(str[i] === subStr[j]) {
+      if(j === subLen -1) {
+        return i - j;
+      }
+      j++;
+    } else {
+      j = 0;
+    }
+  }
+  return -1;
+}
+console.log('19. matchSubstring : ' + matchSubstring('abbcdabbbbbck', 'bbbck'));
+//===============================================================================
