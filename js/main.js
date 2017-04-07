@@ -419,3 +419,7 @@ function countingZeros(n) {
 }
 console.log('19. countingZeros : ' + countingZeros(2014))
 //===============================================================================
+/*
+19. subString
+Question: How can you match substring of a sting?
+*/
