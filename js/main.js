@@ -443,3 +443,29 @@ function matchSubstring(str, subStr) {
 console.log('19. matchSubstring : ' + matchSubstring('abbcdabbbbbck', 'bbbck'));
 //===============================================================================
 //subString => on edge cases
+
+function matchSubstringTwo(str, subStr) {
+  var strLen = str.length;
+  var subLen = subStr.length;
+  
+  var start = 0, end = subLen -1, dif = end - start;
+  
+  for(var i = 0; i < strLen; i++) {
+    if(str[i] === subStr[start] && str[i + dif] === subStr[end]) {
+      start++;
+      end--;
+      dif -= 2;
+      if(start > end) {
+        return i + dif;
+      }
+    } else {
+      start = 0;
+      end = subLen -1;
+      dif = end - start;
+    }
+  }
+  return -1;
+}
+console.log('19II. matchSubstringTwo : ' + matchSubstringTwo('abbbbbck', 'bbbck'))
+
+//===============================================================================
