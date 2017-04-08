@@ -442,3 +442,4 @@ function matchSubstring(str, subStr) {
 }
 console.log('19. matchSubstring : ' + matchSubstring('abbcdabbbbbck', 'bbbck'));
 //===============================================================================
+//subString => on edge cases
