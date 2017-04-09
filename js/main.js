@@ -469,3 +469,7 @@ function matchSubstringTwo(str, subStr) {
 console.log('19II. matchSubstringTwo : ' + matchSubstringTwo('abbbbbck', 'bbbck'))
 
 //===============================================================================
+/*
+20. Permutations
+Question: How would you create all permutation of a string?
+*/
